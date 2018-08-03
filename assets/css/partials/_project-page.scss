@@ -1,0 +1,217 @@
+//section 1
+#rustic-masterpiece-section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: url("../img/house-1/gs_house-1-51-d.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  @media only screen and (max-width: 768px) {background-attachment: scroll;}
+}
+
+#cozy-country-living-section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: url("../img/house-2/gs_house-2-6-display.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  @media only screen and (max-width: 768px) {background-attachment: scroll;}
+}
+
+#lakeside-getaway-section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: url("../img/house-3/gs_house-3-3-display.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  @media only screen and (max-width: 768px) {background-attachment: scroll;}
+}
+
+#peace-woods-section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: url("../img/house-4/gs_house-4-6-display.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  @media only screen and (max-width: 768px) {background-attachment: scroll;}
+}
+
+#deluxe-lakehouse-section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: url("../img/house-2/gs_house-2-6-display.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  @media only screen and (max-width: 768px) {background-attachment: scroll;}
+}
+
+//section 2
+#project-page-section-2 {
+  @media only screen and (max-width: 640px) {padding-bottom: 30px;}
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h5 {margin-bottom: 0; padding-bottom: 0;}
+
+    @media only screen and (max-width: 640px) {
+      align-items: flex-start;
+    }
+  }
+}
+
+//Image Gallery
+.img-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+  margin: 0 4px;
+
+  .gallery-img {
+    position: relative;
+    overflow: hidden;
+
+    height: 350px;
+
+    box-sizing: border-box;
+    padding: 12px 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {object-fit: cover; height: 350px; width: 100%;}
+
+    &.gallery-img-1-col {
+      width: 33.33%;
+    }
+
+    &.gallery-img-2-col {
+      width: 66.66%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 0 30px;
+
+    .gallery-img {
+      padding: 0;
+      margin: 15px 0;
+
+      &.gallery-img-1-col,
+      &.gallery-img-2-col {
+        width: 100%;
+      }
+    }
+  }
+}
+
+//previous or next
+#project-page-prev-next {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  .btn:nth-child(1) {
+    margin-right: $half-gap;
+  }
+
+  .btn:nth-child(2) {
+    margin-left: $half-gap;
+  }
+
+  @media only screen and (max-width: 480px) {
+    flex-direction: column-reverse;
+
+    .btn:nth-child(1) {
+      margin-right: 0;
+      margin-top: $half-gap;
+    }
+
+    .btn:nth-child(2) {
+      margin-left: 0;
+      margin-bottom: $half-gap;
+    }
+  }
+}
+
+//cta
+#rustic-masterpiece-section-5 {
+  background: $overlay-med, url("../img/house-1/gs_house-1-gallery-4.jpg");
+  background-position: center;
+  background-size:cover;
+  background-attachment:fixed;
+  @media only screen and (max-width: 768px) {background-attachment: scroll;}
+}
+
+#cozy-country-living-section-6 {
+  background: $overlay-med, url("../img/house-2/gs_house-2-gallery-4.jpg");
+  background-position: center;
+  background-size:cover;
+  background-attachment:fixed;
+  @media only screen and (max-width: 768px) {background-attachment: scroll;}
+}
+
+#lakeside-getaway-section-6 {
+  background: $overlay-med, url("../img/house-3/gs_house-3-3-display.jpg");
+  background-position: center;
+  background-size:cover;
+  background-attachment:fixed;
+  @media only screen and (max-width: 768px) {background-attachment: scroll;}
+}
+
+#peace-woods-section-6 {
+  background: $overlay-med, url("../img/house-4/gs_house-4-gallery-20.jpg");
+  background-position: center;
+  background-size:cover;
+  background-attachment:fixed;
+  @media only screen and (max-width: 768px) {background-attachment: scroll;}
+}
+
+#deluxe-lakehouse-section-6 {
+  background: $overlay-med, url("../img/house-4/gs_house-4-gallery-20.jpg");
+  background-position: center;
+  background-size:cover;
+  background-attachment:fixed;
+  @media only screen and (max-width: 768px) {background-attachment: scroll;}
+}
+
+
+//video
+.process-video {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: $ten-col;
+
+  @media only screen and (max-width: 1170px) {
+    box-sizing: border-box;
+    padding: 0 30px;
+  }
+
+  @media only screen and (max-width: 768px) {margin-top: 30px;}
+}

@@ -1,0 +1,64 @@
+//circe - typekit - 300, 400, 700
+@import url("https://use.typekit.net/ldt6ydl.css");
+
+//playfair - google - 400
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+//reset
+@import './partials/reset';
+
+//fonts
+$font1: 'Playfair Display', serif;
+$font2: 'circe', sans-serif;
+
+//colors
+$color1: #000;
+$color2: #F1F1F3;
+$color3: #9D9FAE;
+$color4: #fff;
+$accent: #F5A623;
+$overlay:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8));
+$overlay-med:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.65));
+
+//grid
+$one-col: 65px;
+$two-col: 160px;
+$three-col: 255px;
+$four-col: 350px;
+$five-col: 445px;
+$six-col: 540px;
+$seven-col: 635px;
+$eight-col: 730px;
+$nine-col: 825px;
+$ten-col: 920px;
+$eleven-col: 1015px;
+$twelve-col: 1110px;
+$gap: 30px;
+$half-gap: 15px;
+
+//header
+@import './partials/header';
+
+//footer
+@import './partials/footer';
+
+//typography
+@import './partials/typography';
+
+//components
+@import './partials/components';
+
+//homepage
+@import './partials/homepage';
+
+//services
+@import './partials/services';
+
+//showcase
+@import './partials/showcase';
+
+//project pages
+@import './partials/project-page';
+
+//contact
+@import './partials/contact';

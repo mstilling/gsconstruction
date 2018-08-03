@@ -1,0 +1,148 @@
+footer {
+  position: relative;
+
+  box-sizing: border-box;
+  padding: 80px 0 40px 0;
+
+  background-color: $color2;
+
+  @media only screen and (max-width: 755px) {padding: 60px 0 40px 0;}
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    nav a {
+      font-family: $font1;
+      font-size: 32px;
+      color: $color3;
+      line-height: 36px;
+      text-decoration: none;
+
+      display: block;
+      padding: 12px 110px 12px 0;
+
+      width: $two-col;
+
+      &:first-child {padding-top: 0;}
+      &:last-child {padding-bottom: 0;}
+
+      &.current-page {color: $color1;}
+
+      transition: color 350ms ease;
+
+      //hover
+      @media (hover: hover) {
+        &:hover {
+          color: $color1;
+          transition: color 550ms ease;
+        }
+      }
+    }
+
+    .divider {
+      width: 1px;
+      height: 216px;
+      background-color: $color1;
+    }
+
+    .footer-info {
+      width: $three-col;
+      margin: 0 157px;
+
+      img {margin-bottom: 40px;}
+
+      .footer-info-btn {
+        text-decoration: none;
+        font-family: $font2;
+        font-size: 12px;
+        color: $color3;
+        letter-spacing: 2px;
+        line-height: 24px;
+        text-transform: uppercase;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+
+        transition: color 250ms ease;
+
+        i {
+          font-size: 18px;
+          margin-right: 12px;
+          color: $color1;
+        }
+
+        //hover
+        @media (hover: hover) {
+          &:hover {
+            color: $color1;
+            transition: color 350ms ease;
+          }
+        }
+      }
+
+      #footer-social-links {
+        margin-top: 40px;
+
+        a {
+          padding: 17.5px;
+
+          font-size: 18px;
+          text-decoration: none;
+          color: $color1;
+
+          transition: color 250ms ease;
+
+          &:first-child {padding-left: 0;}
+
+          //hover
+          @media (hover: hover) {
+            &:hover {
+              color: $accent;
+              transition: color 350ms ease;
+            }
+          }
+        }
+      }
+    }
+
+    @media only screen and (max-width: 1140px) {
+      justify-content: center;
+
+      nav a {margin-left: 88px;}
+
+      .footer-info {margin: 0 0 0 110px;}
+
+      .divider {
+        &:last-child {display: none;}
+      }
+    }
+
+    @media only screen and (max-width: 755px) {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+
+      .divider {
+        width: 100%;
+        max-width: 315px;
+        height: 1px;
+        margin: 44px 0;
+      }
+
+      nav a {
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+      }
+
+      .footer-info {
+        margin-left: 0;
+      }
+    }
+  }
+}
