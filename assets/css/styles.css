@@ -1514,16 +1514,16 @@ section {
         display: none; } }
 
 #client-review-1 .review-img {
-  background-image: url("../img/house-1/gs_house-1-51-m.jpg"); }
+  background-image: url("../img/house-4/gs_house-4-gallery-6.jpg"); }
   @media only screen and (max-width: 1080px) {
     #client-review-1 .review-img {
-      background-image: url("../img/house-1/gs_house-1-51-d.jpg"); } }
+      background-image: url("../img/house-4/gs_house-4-gallery-7.jpg"); } }
 
 #client-review-2 .review-img {
-  background-image: url("../img/house-1/gs_house-1-51-m.jpg"); }
+  background-image: url("../img/house-2/gs_house-2-gallery-12.jpg"); }
   @media only screen and (max-width: 1080px) {
     #client-review-2 .review-img {
-      background-image: url("../img/house-1/gs_house-1-51-d.jpg"); } }
+      background-image: url("../img/house-2/gs_house-2-gallery-12.jpg"); } }
 
 #client-review-3 .review-img {
   background-image: url("../img/house-1/gs_house-1-51-m.jpg"); }
