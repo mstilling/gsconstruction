@@ -1149,7 +1149,9 @@ section {
               -webkit-box-direction: normal;
               -ms-flex-direction: column;
               flex-direction: column;
-              height: auto; }
+              height: auto;
+              min-height: 720px;
+              max-height: 720px; }
               .review-slider .glide__track .glide__slides .glide__slide .client-review .review-img {
                 min-height: 240px;
                 max-height: 240px; }
@@ -1224,6 +1226,9 @@ section {
           -o-transition: transform 350ms ease, background-color 350ms ease;
           transition: transform 350ms ease, background-color 350ms ease;
           transition: transform 350ms ease, background-color 350ms ease, -webkit-transform 350ms ease; } }
+
+#client-review-overflow {
+  overflow-y: scroll; }
 
 .mobile-review {
   width: calc(100% - 30px);
@@ -1520,16 +1525,22 @@ section {
       background-image: url("../img/house-4/gs_house-4-gallery-7.jpg"); } }
 
 #client-review-2 .review-img {
-  background-image: url("../img/house-2/gs_house-2-gallery-12.jpg"); }
+  background-image: url("../img/house-3/gs_house-3-gallery-5.jpg"); }
   @media only screen and (max-width: 1080px) {
     #client-review-2 .review-img {
-      background-image: url("../img/house-2/gs_house-2-gallery-12.jpg"); } }
+      background-image: url("../img/house-3/gs_house-3-gallery-2.jpg"); } }
 
 #client-review-3 .review-img {
   background-image: url("../img/house-1/gs_house-1-51-m.jpg"); }
   @media only screen and (max-width: 1080px) {
     #client-review-3 .review-img {
       background-image: url("../img/house-1/gs_house-1-51-d.jpg"); } }
+
+#client-review-4 .review-img {
+  background-image: url("../img/house-2/gs_house-2-gallery-13.jpg"); }
+  @media only screen and (max-width: 1080px) {
+    #client-review-4 .review-img {
+      background-image: url("../img/house-2/gs_house-2-gallery-10.jpg"); } }
 
 #index-section-6 {
   position: static;

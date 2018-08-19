@@ -447,6 +447,8 @@ section {position: relative;}
           @media only screen and (max-width: 1080px) {
             flex-direction: column;
             height: auto;
+            min-height: 720px;
+            max-height: 720px;
 
             .review-img {
               min-height: 240px;
@@ -549,6 +551,10 @@ section {position: relative;}
       }
     }
   }
+}
+
+#client-review-overflow {
+  overflow-y: scroll;
 }
 
 //mobile-review
