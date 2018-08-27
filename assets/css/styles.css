@@ -1653,10 +1653,10 @@ section {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../img/house-2/gs_house-2-6-display.jpg");
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/house-2/gs_house-2-6-display.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/house-2/gs_house-2-6-display.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/house-2/gs_house-2-6-display.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../img/house-1/gs_house-1-29-cta.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/house-1/gs_house-1-29-cta.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/house-1/gs_house-1-29-cta.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/house-1/gs_house-1-29-cta.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed; }
