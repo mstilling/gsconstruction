@@ -59,6 +59,18 @@
   @media only screen and (max-width: 768px) {background-attachment: scroll;}
 }
 
+#past-projects-section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: url("../img/old/gs_old_5_2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  @media only screen and (max-width: 768px) {background-attachment: scroll;}
+}
+
 //section 2
 #project-page-section-2 {
   @media only screen and (max-width: 640px) {padding-bottom: 30px;}

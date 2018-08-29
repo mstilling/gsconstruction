@@ -873,6 +873,9 @@ section {
   -ms-flex-pack: center;
   justify-content: center;
   overflow: hidden; }
+  @media only screen and (min-width: 768px) {
+    .project-block.full-width-project-block {
+      width: 100%; } }
   @media only screen and (max-width: 768px) {
     .project-block {
       width: calc(100% - 30px);
@@ -1741,6 +1744,14 @@ section {
   background-position: center;
   background-size: cover; }
 
+#showcase-project-5:before {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.65))), url("../img/old/gs_old_5_2.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.65)), url("../img/old/gs_old_5_2.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.65)), url("../img/old/gs_old_5_2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.65)), url("../img/old/gs_old_5_2.jpg");
+  background-position: center;
+  background-size: cover; }
+
 @media only screen and (max-width: 768px) {
   #showcase-section-3 {
     margin-bottom: 60px; } }
@@ -1851,6 +1862,25 @@ section {
   background-attachment: fixed; }
   @media only screen and (max-width: 768px) {
     #deluxe-lakehouse-section-1 {
+      background-attachment: scroll; } }
+
+#past-projects-section-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: url("../img/old/gs_old_5_2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  @media only screen and (max-width: 768px) {
+    #past-projects-section-1 {
       background-attachment: scroll; } }
 
 @media only screen and (max-width: 640px) {

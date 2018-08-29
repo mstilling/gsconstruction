@@ -69,6 +69,12 @@
   background-size: cover;
 }
 
+#showcase-project-5:before {
+  background: $overlay-med,  url("../img/old/gs_old_5_2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 #showcase-section-3 {
   @media only screen and (max-width: 768px) {margin-bottom: 60px;}
 }
