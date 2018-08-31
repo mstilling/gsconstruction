@@ -75,6 +75,12 @@
   background-size: cover;
 }
 
+#showcase-project-6:before {
+  background: $overlay-med,  url("../img/house-5/gs_house-5-6.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 #showcase-section-3 {
   @media only screen and (max-width: 768px) {margin-bottom: 60px;}
 }
